@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fantasycitymodel" version="4">
+  <OBJECT>
+    <ID name="fantasycitymodel" mc="Standard.Package" uid="1d2c6024-e25a-443e-8aee-a781b8dcb641"/>
+    <PID name="FantasyCityModel" mc="Standard.Project" uid="0c7a715e-bc41-4b0e-ac6b-ebe7db2c50e2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fantasycitymodel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Building" mc="Standard.Class" uid="9a1e1b53-b57a-4c05-ace6-6c017ee483ca"/>
+        <OBJECT>
+          <ID name="Resources" mc="Standard.Enumeration" uid="1af20210-a33a-43b0-b185-08ba56629f62"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Resources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="GOLD" mc="Standard.EnumerationLiteral" uid="76f22908-d603-484c-ba18-1df9302cefeb"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[GOLD]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="WOOD" mc="Standard.EnumerationLiteral" uid="af429974-9762-4eef-9d4a-29364d66def9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[WOOD]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="FOOD" mc="Standard.EnumerationLiteral" uid="d044b527-166f-4884-8db2-0533e4b07bf9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FOOD]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="NONE" mc="Standard.EnumerationLiteral" uid="bf6af6dc-ba4c-4cd8-ae0e-afcd48357694"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[NONE]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="BuildingType" mc="Standard.Enumeration" uid="19321805-9118-409e-8ae5-bc98374a5e38"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[BuildingType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="FARM" mc="Standard.EnumerationLiteral" uid="a74d27be-5fd8-4537-9a53-12a4f669c670"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FARM]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="LumberMill" mc="Standard.EnumerationLiteral" uid="2a430c12-c803-496c-9a24-9d08377c4286"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[LumberMill]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="GoldMine" mc="Standard.EnumerationLiteral" uid="44be389e-cc77-4e4f-924b-12ed269d2b4c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[GoldMine]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="BuildingsFactory" mc="Standard.Class" uid="8aff75a9-2ed3-427c-b994-85d12b501bc3"/>
+        <COMPID name="Game" mc="Standard.Class" uid="85795a56-90ee-4ff3-9968-d39bf4d77b6e"/>
+        <COMPID name="Farm" mc="Standard.Class" uid="2dce23b6-0cee-48ea-9118-3300855bf451"/>
+        <COMPID name="GoldMine" mc="Standard.Class" uid="393413b6-fb98-4640-9cf7-4b4f5841acd5"/>
+        <COMPID name="LumberMill" mc="Standard.Class" uid="2a4515de-c8f4-460b-867b-be2631561845"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="fantasycitymodel Class diagram" mc="Standard.ClassDiagram" uid="6132ac54-841c-49c7-b74c-5f14f4568ee1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

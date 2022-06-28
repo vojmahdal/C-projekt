@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="FantasyCityModel" version="4">
+  <OBJECT>
+    <ID name="FantasyCityModel" mc="Standard.Project" uid="0c7a715e-bc41-4b0e-ac6b-ebe7db2c50e2"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[FantasyCityModel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="fantasycitymodel" mc="Standard.Package" uid="1d2c6024-e25a-443e-8aee-a781b8dcb641"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="FantasyCityModel" mc="Infrastructure.DiagramSet" uid="9aa6c8a5-c9de-49e3-8019-11554dea8ee7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="FantasyCityModel" version="4">
+  <OBJECT>
+    <ID name="FantasyCityModel" mc="Infrastructure.DiagramSet" uid="9aa6c8a5-c9de-49e3-8019-11554dea8ee7"/>
+    <PID name="FantasyCityModel" mc="Standard.Project" uid="0c7a715e-bc41-4b0e-ac6b-ebe7db2c50e2"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[FantasyCityModel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
